@@ -503,6 +503,17 @@
                   <attDef ident="corresp" mode="delete"/>
                   <attDef ident="source" mode="delete"/>
                </attList>
+               <exemplum>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                    <sp rend="off-screen">
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p>
+                  <view>(VO)</view> The game. They say either a person has what it takes to play, or
+                  they don't. My mother was one of the greats. Me, on the other hand... I'm kinda
+                  screwed.</p>
+            </sp>
+                  </egXML>
+               </exemplum>
             </elementSpec>
 
 
