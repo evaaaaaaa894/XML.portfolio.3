@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/mgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/mgodd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+<!ENTITY particDesc SYSTEM '../authorities/dwTS_castList.xml'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Doctor Who : The Encoding</title>
+            <author>
+               <persName>
+                  <forename>Eva</forename>
+                  <surname>Riviere</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName>
+                  <forename>Katarzyna</forename>
+                  <surname>Kapitan</surname>
+               </persName>
+            </authority>
+            <pubPlace>Ecole nationale des chartes</pubPlace>
+            <date>2026-01-09</date>
+            <availability>
+               <licence>This file is available under a Creative Commons Attribution 4.0 licence:
+                     <ref type="url" target="https://creativecommons.org/licenses/by/4.0/deed.en"
+                     >https://creativecommons.org/licenses/by/4.0/deed.en</ref>. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="online">
+               <title>Doctor Who II Ep.1.Shooting Script </title>
+               <availability status="restricted">
+                  <p>Original PDF uploaded by the BBC, owner of the broadcasting rights.</p>
+               </availability>
+               <distributor>
+                  <name>BBC</name>
+               </distributor>
+               <idno type="URL"
+                  >https://www.bbc.co.uk/writers/documents/doctor-who-2-episode-1-new-earth-shooting-script-08072005.pdf</idno>
+               <note>This digital version corresponds to the original shooting script.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project was completed for an XML–TEI class and focuses on encoding television
+               scripts using TEI All. It aims to explore descriptive encoding, cast representation,
+               and structural markup in audiovisual storytelling.</p>
+         </projectDesc>
+         <appInfo>
+            <application ident="Oxygen-XML-Editor" version="27.1">
+               <desc>Oxygen XML Editor is a cross platform tool setting the standard in XML editing.
+               </desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc rendition="https://www.imdb.com/fr/title/tt0562990/?ref_=ttep_ep_1">
+         <!-- not a huge fan of this but it was the only element I find capable of holding a complete equivalent of a cast list in the header -->
+         <creation>
+            <title>New Earth</title>
+            <date type="publication" when="2007-01-04">4 January 2007</date>
+            <persName role="directeur">
+               <forename>James</forename>
+               <surname>Hawes</surname>
+            </persName>
+            <persName role="writter" ref="#RTD">
+               <forename>Russel</forename>
+               <forename>T</forename>
+               <surname>Davis</surname>
+            </persName>
+         </creation>
+         &particDesc;
+         <textDesc>
+            <channel>television</channel>
+            <constitution type="frags">2605 first caracter of the firt episode of the series two
+               scipture</constitution>
+            <derivation type="excerpt"/>
+            <domain>public</domain>
+            <factuality>fiction</factuality>
+            <interaction source="https://www.imdb.com/fr/title/tt0562990/ratings/?ref_=tt_ov_rat"
+               >7,3/10</interaction>
+            <preparedness>scripted</preparedness>
+            <purpose type="entertain">entertainment; dramatic narrative</purpose>
+         </textDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="page">
+            <head>DWII - Episode 1 - Shooting Script - <date>08/07/05</date> Page 1</head>
+            <desc>1</desc>
+            <stage type="setting">INT. TARDIS - DAY 3 1000</stage>
+            <desc>1</desc>
+            <view><sound>Quiet</sound>, dark, creaking, as though the machine has been at rest. A
+               figure walks up the ramp. Pulls down a lever. The chamber comes to life. Light from
+               the walls. The column illuminates. Shafts from beneath the metal floors. At the
+               console, <ref corresp="#D">THE DOCTOR</ref>. In his element, pulling levers, finding
+               his way around. Same old ship, brand new man.</view>
+            <camera>CUT TO:</camera>
+
+            <desc>2</desc>
+            <stage type="setting">EXT. TYLERS' ESTATE - DAY 3 1000</stage>
+            <desc>2</desc>
+            <view>Outside, the most ordinary day in the world, all concrete and litter, grey skies.
+                  <ref corresp="#R">ROSE</ref> , with her rucksack, saying goodbye to <ref
+                  corresp="#J">JACKIE</ref> and <ref corresp="#M">MICKEY</ref>, the TARDIS in the
+               background. <ref corresp="#R">Rose</ref> gives <ref corresp="#J">Jackie</ref> a hug,
+                  <ref corresp="#J">Jackie</ref> upset. <stage type="acting">Improvise 'I'll come
+                  back soon,' 'Be careful,'</stage> cover with <sound>incidental
+               music</sound>.</view>
+            <camera>CUT TO:</camera>
+
+            <desc>3</desc>
+            <stage type="setting">INT. TARDIS - DAY 3 1001</stage>
+            <desc>3</desc>
+            <view><ref corresp="#D">THE DOCTOR</ref> finds the vital switch. Slams it down. Engines
+               grind; the column begins to move up and down...</view>
+            <camera>CUT TO:</camera>
+
+            <desc>4</desc>
+            <stage type="setting">EXT. TYLERS' ESTATE - DAY 3 1002</stage>
+            <desc>4</desc>
+            <view><sound>The noise of the engines</sound>. The light on top of the Tardis flares.
+                  <ref corresp="#R">ROSE</ref> is late, grabs her stuff - a kiss for <ref
+                  corresp="#M">MICKEY</ref> - a quick kiss but a good kiss - and she runs for the
+               door -</view>
+            <camera>CUT TO:</camera>
+
+            <desc>5</desc>
+            <stage type="setting">INT. TARDIS - DAY 3 1002</stage>
+            <desc>5</desc>
+            <view><ref corresp="#R">ROSE</ref> runs in, up the ramp, to the console. THE DOCTOR's
+               more precise with his controls now, but more experimental, a genius conducting a vast
+               orchestra. Big smile from both.</view>
+            <camera>CUT TO:</camera>
+
+         </div>
+         <div type="page">
+            <head>DWII - Episode 1 - Shooting Script - <date>08/07/05</date> Page 2</head>
+            <desc>6</desc>
+            <stage type="setting">EXT. TYLERS' ESTATE - DAY 3 1002</stage>
+            <desc>6</desc>
+            <tech type="FX">FX: The Tardis starts to fade.</tech>
+            <view>
+               <ref corresp="#J">JACKIE</ref> , tearful, walks away before it's even finished. <ref
+                  corresp="#M">MICKEY</ref> watches the box disappear. <stage type="acting">Not
+                  happy, but faithful</stage>.</view>
+            <camera>CUT TO:</camera>
+
+            <desc>7</desc>
+            <stage type="setting">INT. TARDIS - DAY 3 1003</stage>
+            <desc>7</desc>
+            <view>The room pitching - not out of control, but it's a vigorous flight.<ref
+                  corresp="#D">THE DOCTOR</ref> and <ref corresp="#R">ROSE</ref> steady themselves
+               on the console.</view>
+            <sp>
+               <speaker corresp="#R">ROSE</speaker>
+               <p>So where are we going?</p>
+            </sp>
+            <sp>
+               <speaker corresp="#D">THE DOCTOR</speaker>
+               <p>Further than we've ever gone before.</p>
+            </sp>
+            <tech type="montage">CUT TO OPENING TITLES</tech>
+            <desc>8</desc>
+            <stage type="setting">EXT. CLIFFTOPS - DAY 3 1011</stage>
+            <desc>8</desc>
+            <view>Tardis doors open, <camera>CU</camera>
+               <ref corresp="#R">ROSE</ref> , stepping out. Dazzled. Amazed.<ref corresp="#D">THE
+                  DOCTOR</ref> immediately behind her, loving it.</view>
+            <sp>
+               <speaker corresp="#D">THE DOCTOR</speaker>
+               <p>It's the year five billion and twenty three. We're in the Galaxy M87. And this!
+                  This is New Earth.</p>
+            </sp>
+            <view>Reveal an endless, open vista. High clifftops, edged by rolling greenery, the
+               Tardis parked safely on top. Sun glittering off the vast expanse of ocean. <tech
+                  type="FX">FX: in the sky, huge sun, planets, moons.</tech>
+               <tech type="FX">FX: to one side, a good distance away, a mile or so, a building, a
+                  white TOWER, built into the cliff, rising up like a classy, futuristic lighthouse,
+                  though taller, wider, more lofty. A green crescent moon-sign on ts side.</tech>
+               <tech type="FX">FX: across the sea, on the horizon, a CITY. The gorgeous, glittering
+                  skyscrapers of a massive sci-fi mega- city.</tech> It's so beautiful, the Doctor
+               and Rose are laughing.</view>
+            <tech>(CONTINUED)</tech>
+         </div>
+         <div type="page">
+            <head>DWII - Episode <desc>1</desc> - Shooting Script - <date>08/07/05</date> Page
+               3</head>
+            <desc>8</desc>
+            <tech>CONTINUED:</tech>
+            <desc>8</desc>
+            <sp>
+               <speaker corresp="#R">ROSE</speaker>
+               <p>That's just... It's...</p>
+            </sp>
+            <sp>
+               <speaker corresp="#D">THE DOCTOR</speaker>
+               <p>Not bad. Not bad at all.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#R">ROSE</speaker>
+               <p>There's a city!</p>
+            </sp>
+            <sp>
+               <speaker corresp="#D">THE DOCTOR</speaker>
+               <p>I know!</p>
+            </sp>
+            <sp>
+               <speaker corresp="#R">ROSE</speaker>
+               <p>New Earth?</p>
+            </sp>
+            <sp>
+               <speaker corresp="#D">THE DOCTOR</speaker>
+               <p>The next Earth. Earth Two.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#R">ROSE</speaker>
+               <p>I'll never get used to this, never. Different ground beneath my feet. Different
+                  sky. What's that smell?</p>
+            </sp>
+            <sp>
+               <speaker corresp="#D">THE DOCTOR</speaker>
+               <p>Apple grass.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#R">ROSE</speaker>
+               <p>Apple grass. It's beautiful. Oh I love this. Can I just say? Travelling with you -
+                  I love it!</p>
+            </sp>
+            <sp>
+               <speaker corresp="#D">THE DOCTOR</speaker>
+               <p>Me too!</p>
+            </sp>
+            <view><camera>WIDE SHOT</camera> as he grabs her hand and they run down the
+               grass.</view>
+         </div>
+      </body>
+   </text>
+</TEI>

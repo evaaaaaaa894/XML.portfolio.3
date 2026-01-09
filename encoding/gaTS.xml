@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/mgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/mgodd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+<!ENTITY particDesc SYSTEM '../authorities/gaTS_castList.xml'>
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Grey's Anatomy : The Encoding</title>
+            <author>
+               <persName>
+                  <forename>Eva</forename>
+                  <surname>Riviere</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName>
+                  <forename>Katarzyna</forename>
+                  <surname>Kapitan</surname>
+               </persName>
+            </authority>
+            <pubPlace>Ecole nationale des chartes</pubPlace>
+            <date>2026-01-09</date>
+            <availability>
+               <licence>This file is available under a Creative Commons Attribution 4.0 licence:
+                     <ref type="url" target="https://creativecommons.org/licenses/by/4.0/deed.en"
+                     >https://creativecommons.org/licenses/by/4.0/deed.en</ref>. </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="online">
+               <title>Grey's Anatomy screenplay scripts season 1</title>
+               <availability status="unknown">
+                  <p>Original PDF uploaded by an online user; copyright status unclear.</p>
+               </availability>
+               <idno type="URL"
+                  >https://z-lib.gl/book/96301914/6e6bfd/greys-anatomy-screenplay-scripts-season-1.html</idno>
+               <note>This digital document is a more or less amateur transcription of the televised
+                  serie in script form; rights unknown. The accessibility of the online document may
+                  not be stable in the short or long term due to its condition.</note>
+               <date type="consultation">2025-11-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project was completed for an XML–TEI class and focuses on encoding television
+               scripts using TEI All. It aims to explore descriptive encoding, cast representation,
+               and structural markup in audiovisual storytelling.</p>
+         </projectDesc>
+         <appInfo>
+            <application ident="Oxygen-XML-Editor" version="27.1">
+               <desc>Oxygen XML Editor is a cross platform tool setting the standard in XML editing.
+               </desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc rendition="https://www.imdb.com/fr/title/tt0562990/?ref_=ttep_ep_1">
+         <!-- not a huge fan of this but it was the only element I find capable of holding a complete equivalent of a cast list in the header -->
+         <creation>
+            <title>A Hard Day's Night</title>
+            <date type="publication" when="2003-03-27">27 March 2005</date>
+            <persName role="directeur">
+               <forename>Peter</forename>
+               <surname>Horton</surname>
+            </persName>
+            <persName role="writter">
+               <forename>Shonda</forename>
+               <surname>Rhimes</surname>
+            </persName>
+         </creation>
+         &particDesc;
+         <textDesc>
+            <channel>television</channel>
+            <constitution type="frags">2605 first caracter of the firt episode of the series two
+               scipture</constitution>
+            <derivation type="excerpt"/>
+            <domain>public</domain>
+            <factuality>fiction</factuality>
+            <interaction source="https://www.imdb.com/fr/title/tt0562990/ratings/?ref_=tt_ov_rat"
+               >7,3/10</interaction>
+            <preparedness>scripted</preparedness>
+            <purpose type="entertain">entertainment; dramatic narrative</purpose>
+         </textDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>GREY'S ANATOMY</head>
+            <ab>1x01: A Hard Day's Night</ab>
+            <ab>Original Airdate: <date>3/27/2005</date></ab>
+            <ab>Written by: Shonda Rhimes | Directed by: Peter Horton</ab>
+         </div>
+
+         <div>
+            <sp rend="off-screen">
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p>
+                  <view>(VO)</view> The game. They say either a person has what it takes to play, or
+                  they don't. My mother was one of the greats. Me, on the other hand... I'm kinda
+                  screwed.</p>
+            </sp>
+            <view>(Meredith wakes up on the couch and pulls a blanket off a naked man on the floor,
+               wrapping it around herself. She hits him with a pillow and he grunts, waking up. He
+               lifts up her bra.)</view>
+            <sp>
+               <speaker corresp="#DS">MAN</speaker>
+               <p> This... is...?</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> (grabbing it, smiling) Humiliating on so many levels. You have to go.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">MAN</speaker>
+               <p> (sitting up) Why don't you just come back down here and we'll pick up where we
+                  left off?</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> No, seriously. You have to go, I'm late. Which isn't what you want to be on your
+                  first day of work, so...</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">MAN</speaker>
+               <p> So, ah, you actually live here.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> No.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">MAN</speaker>
+               <p> Oh.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> Yes. Kind of.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">MAN</speaker>
+               <p> (dressing) Oh. It's nice. Little dusty. Odd. But it's nice. So how do you kind of
+                  live here?</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> I moved two weeks ago from Boston, it was my mother's house, I'm selling it.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">MAN</speaker>
+               <p> Oh, I'm sorry.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> For what?</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">MAN</speaker>
+               <p> You said was.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> Oh! My mother's not dead, she's — you know what, we don't have to do the
+                  thing.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">MAN</speaker>
+               <p> Oh. We can do anything you want.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> No, the thing, exchange the details, pretend we care... look, I'm gonna go
+                  upstairs and take a shower, okay, and when I get back down here, you won't be
+                  here, so, um, goodbye... um...</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">MAN</speaker>
+               <p> Derek.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> (they shake hands) Derek. Right. Meredith.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">DERECK</speaker>
+               <p>Meredith.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> Yeah. (he comes closer, she backs away) Mm-hmm.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#DS">DERECK</speaker>
+               <p>Nice meeting you.</p>
+            </sp>
+            <sp>
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p> Bye Derek.</p>
+            </sp>
+            <view>(smiling and fleeing for the stairs)</view>
+
+            <view>(Cut to Meredith leaving the house. Derek is presumably gone. Panning shots over
+               the city as Meredith drives to work. Meredith enters a room filled with other interns
+               as a doctor talks.)</view>
+            <sp>
+               <speaker corresp="RW">DOCTOR</speaker>
+               <p>Each of you comes here hopeful. Wanting in on the game. A month ago you were in
+                  med school being taught by doctors. Today, you are the doctors. The seven years
+                  you spend here as a surgical resident will be the best and worst of your life. You
+                  will be pushed to the breaking point. Look around you. Say hello to your
+                  competition. Eight of you will switch to an easier specialty. Five of you will
+                  crack under the pressure. Two of you will be asked to leave. This is your starting
+                  line. This is your arena. How well you play? That's up to you.</p>
+            </sp>
+            <sp rend="off-screen">
+               <speaker corresp="#MG">MEREDITH</speaker>
+               <p>
+                  <view>(VO)</view> Like I said. I'm screwed.</p>
+            </sp>
+            <view>(Fadeout to logo, then cut to intern locker room.)</view>
+         </div>
+      </body>
+   </text>
+</TEI>

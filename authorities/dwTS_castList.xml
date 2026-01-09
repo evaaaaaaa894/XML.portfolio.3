@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<particDesc>
+   <listPerson>
+      <person  gender="W" xml:id="R">
+         <persName>
+            <forename>Billie</forename>
+            <surname>Piper</surname>
+         </persName>
+         <state type="role" subtype="main">
+            <label>Rose Tyler</label>
+            <desc source="https://tardis.fandom.com/wiki/Rose_Tyler">
+               Rose Marion Tyler, knighted Dame Rose of the Powell Estate, was a companion of the Ninth and Tenth Doctors. 
+            </desc>
+         </state>
+      </person>
+      <person gender="M" xml:id="D">
+         <persName>
+            <forename>David</forename>
+            <surname>Tennant</surname>
+         </persName>
+         <state type="role" subtype="main" >
+            <label>The tenth Doctor</label>
+            <desc source="https://tardis.fandom.com/wiki/Tenth_Doctor">
+               A mysterious traveller of both space and time. The tenth one.
+            </desc>
+         </state>
+      </person>
+      <person  gender="W" xml:id="J">
+         <persName>
+            <forename>Camille</forename>
+            <surname>Coduri</surname>
+         </persName>
+         <state type="role" subtype="supporting">
+            <label>Jackie Tyler</label>
+            <desc source="https://tardis.fandom.com/wiki/Jackie_Tyler">
+               JJacqueline Andrea Suzette Tyler is the mother of Rose Tyler. 
+            </desc>
+         </state>
+      </person>
+      <person gender="M" xml:id="M">
+         <persName>
+            <forename>Noel</forename>
+            <surname>Clark</surname>
+         </persName>
+         <state type="role" subtype="supporting" >
+            <label>Mickey Smith</label>
+            <desc source="https://tardis.fandom.com/wiki/Mickey_Smith">
+               Mickey Smith was a self-dependant resident of a South London housing estate who, for much of his early adult life,
+               was in a one-sided relationship with Rose Tyler.
+            </desc>
+         </state>
+      </person>
+   </listPerson>
+</particDesc>
+

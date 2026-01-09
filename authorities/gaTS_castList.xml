@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<particDesc>
+   <listPerson>
+      <person  gender="W" xml:id="MG">
+         <persName>
+            <forename>Ellen</forename>
+            <surname>Pompeo</surname>
+         </persName>
+         <state type="role" subtype="main">
+            <label>Meredith Grey</label>
+            <desc source="https://greysanatomy.fandom.com/wiki/Meredith_Grey">
+               Meredith is the series' protagonist and was introduced as a surgical intern at the fictional Seattle Grace Hospital. 
+               She eventually obtains the position of a surgical resident, and later, the position of an attending surgeon.. 
+            </desc>
+         </state>
+      </person>
+      <person gender="M" xml:id="DS">
+         <persName>
+            <forename>Patrick</forename>
+            <surname>Dempsey</surname>
+         </persName>
+         <state type="role" subtype="main" >
+            <label>Derek Shepherd</label>
+            <desc source="https://greysanatomy.fandom.com/wiki/Derek_Shepherd">
+               Derek Shepherd was a renowned neurosurgeon, former Head of Neurosurgery, and board director at Grey Sloan Memorial Hospital. He was married to Meredith Grey
+            </desc>
+         </state>
+      </person>
+      <person gender="M" xml:id="RW">
+         <persName>
+            <forename>James Pickens Jr.</forename>
+            <surname>Pickens Jr.</surname>
+         </persName>
+         <state type="role" subtype="main" >
+            <label>Richard Webber</label>
+            <desc source="https://greysanatomy.fandom.com/wiki/Richard_Webber">
+               He is the Chief of Surgery at both Seattle Grace Hospital and Seattle Grace Mercy West Hospital.
+            </desc>
+         </state>
+      </person>
+   </listPerson>
+</particDesc>
+

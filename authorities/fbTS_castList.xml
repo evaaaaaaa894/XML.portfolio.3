@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- I chose to encode the list of recurring characters with the idea that if the script encoding continues, it would be relevant to share it to avoid repetition. -->
+<particDesc>
+    <listPerson>
+        <person  gender="W" xml:id="F">
+            <persName>
+                <forename>Phoebe</forename>
+                <surname>Waller-Bridge</surname>
+            </persName>
+            <state type="role" subtype="main">
+                <label>Fleabag</label>
+                <desc source="https://fleabag.fandom.com/wiki/Fleabag">
+                    Fleabag is a thirty-three year old single woman and the main character of the eponymous series.
+                </desc>
+            </state>
+        </person>
+        <person gender="W" xml:id="C">
+            <persName>
+                <forename>Sian</forename>
+                <surname>Clifford</surname>
+            </persName>
+            <state type="role" subtype="main" >
+                <label>Claire</label>
+                <desc source="https://fleabag.fandom.com/wiki/Claire">
+                    Claire is a main character in the first and second series of the comedy drama Fleabag. She is Fleabag's sister.
+                    She was married to Martin, and was step-mother to his son, Jake. She has a strained relationship with her sister Fleabag, but obviously really loves her.
+                </desc>
+            </state>
+        </person>
+        <person gender="M" xml:id="P">
+            <persName>
+                <forename>Andrew</forename>
+                <surname>Scott</surname>
+            </persName>
+            <state type="role" subtype="main" >
+                <label>The Priest</label>
+                <desc source="https://fleabag.fandom.com/wiki/The_Priest">
+                    The Priest is a main character in the second series of Fleabag.
+                </desc>
+            </state>
+        </person>
+        <person gender="M" xml:id="D">
+            <persName>
+                <forename>Bill</forename>
+                <surname>Paterson</surname>
+            </persName>
+            <state type="role" subtype="supporting" >
+                <label>Dad</label>
+                <desc source="https://fleabag.fandom.com/wiki/Dad">
+                    Dad is a main character in the first and second series of the comedy drama Fleabag.
+                    He is the father of Fleabag and Claire. His first wife died of cancer and he remarried his daughter's Godmother.
+                </desc>
+            </state>
+        </person>
+        <person gender="W" xml:id="G">
+            <persName>
+                <forename>Olivia</forename>
+                <surname>Coleman</surname>
+            </persName>
+            <state type="role" subtype="supporting" >
+                <label>Godmother</label>
+                <desc source="https://fleabag.fandom.com/wiki/Godmother">
+                    Godmother is a main character in the first and second series of the comedy drama Fleabag.
+                    She is Dad's second wife, and step-mother to Fleabag and Claire.
+                </desc>
+            </state>
+        </person>
+        <person gender="M" xml:id="M">
+            <persName>
+                <forename>Brett</forename>
+                <surname>Gelman</surname>
+            </persName>
+            <state type="role" subtype="supporting" >
+                <label>Martin</label>
+                <desc source="https://fleabag.fandom.com/wiki/Martin">
+                    Martin is a recurring character in the first and second series of the comedy drama Fleabag.
+                    He is Claire's husband.
+                </desc>
+            </state>
+        </person>
+        <person gender="W" xml:id="B">
+            <persName>
+                <forename>Jenny</forename>
+                <surname>Rainsford</surname>
+            </persName>
+            <state type="role" subtype="supporting" >
+                <label>Boo</label>
+                <desc source="https://fleabag.fandom.com/wiki/Boo">
+                    Boo is a recurring character in the first and second series of the comedy drama Fleabag.
+                    She was Fleabag's best friend, and co-owner of the cafe that the two of them ran.
+                </desc>
+            </state>
+        </person>
+        <person gender="M" xml:id="AG">
+            <persName>
+                <forename>Ben</forename>
+                <surname>Aldrige</surname>
+            </persName>
+            <state type="role" subtype="supporting" >
+                <label>Arsehole Guy</label>
+                <desc source="https://fleabag.fandom.com/wiki/Arsehole_Guy">
+                    Arsehole Guy is a recurring character in the first and second series of the comedy drama Fleabag.
+                    He is one of Fleabag's on-again, off-again lovers.
+                </desc>
+            </state>
+        </person>
+    </listPerson>
+</particDesc>
+
