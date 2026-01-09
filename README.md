@@ -11,7 +11,7 @@ The project is organized into the following directory structure
   - `mgodd.rng`: The RelaxNG schema.
   - `mgodd.html`: The human-readable project guidelines.
 - **`encoding/`**: Encoded TEI-XML extracts validated against the custom schema (`fbTS.xml`, `gaTS.xml`, `dwTS.xml`).
-- **`authorities/`**: HTML files containing external taxonomies and indices for character identification.
+- **`authorities/`**: HTML files containing external cast lists and indices for character identification.
 - **`sources/`**: Raw materials:
   - `raw/`: Original script formats (PDF/Image).
   - `text/`: Plain text versions of the excerpts.
